@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khushi Arora</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+</head>
+<body> 
+    <header>
+        <div>
+            <img src="./profile.jpeg" alt="Profile Image" onerror="this.onerror=null;this.src='fallback-image.jpg';">
+            
+            <h1>Khushi Arora</h1>
+            
+            <p id="subheading">Computer Programming and Analysis @ Seneca Polytechnic</p>
+            
+            <div>
+                <a href="#projects">Projects: 8</a>
+            </div>
+        </div>
+    </header>
+<section id="skills">
+    <div class="skill-item-one">
+        <img class="skill-icon" src="https://omicstutorials.com/wp-content/uploads/2023/11/algorithm-bioinformatics.webp">
+        <p> <b>Algorithms Development</b> </p> 
+        <p>C/C++ | OOP | DSA</p>
+    </div>
+    <div class="skill-item-two">
+        <img class="skill-icon" src="https://www.simplilearn.com/ice9/free_resources_article_thumb/is_web_development_good_career.jpg">    
+        <h2> <b>Web Development</b> </h2>
+        <p>HTML | CSS | JS | React | RestAPI</p>
+    </div>
+    <div class="skill-item-three">
+        <img class="skill-icon" src="https://media.licdn.com/dms/image/v2/C5112AQEI2uRnprO7uQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1577873027213?e=2147483647&v=beta&t=fG4wX1mZe3ElJTuNSn2b70NGu6ej1OlehjXpMUxDGh4">      
+        <h2><b>Database Management</b></h2>       
+        <p>MySQL | Oracle SQL | PL/SQL | User Authentication | Joins | Subqueries</p>
+    </div>
+    <div class="skill-item-four">
+        <img class="skill-icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQooXHtLcFaUzwRSJUfY38rIL0vxiEIBfYDA&s">      
+        <h2><b>Data Analysis</b></h2>       
+        <p>Python | Pandas | Matplotlib | Tableau | PowerBI</p>
+    </div>
+    <div class="skill-item-five">
+        <img class="skill-icon" src="https://www.scnsoft.com/blog-pictures/test-automation/manual-automated-testing-integrated-approach_01-cover.png">      
+        <h2><b>Testing & Automation</b></h2>       
+        <p>Pytest | C++ unit test | Jenkins | Jira | Log files</p>
+    </div>
+    <div class="skill-item-six">
+        <img class="skill-icon" src="https://cdn.prod.website-files.com/6529762860f5d2796d4eb495/65e859ddcc41d9e6f8a7ef7b_What%20is%20system%20design-system%20design%20in%20SDLC-grorapidlabs.jpeg">      
+        <h2><b>System Designs</b></h2>       
+        <p>SDLC | Architecture | Scalability | UML | Testing</p>
+    </div>
+</section>
+<section id="projects">
+    <h2 class="projects-title">My Projects</h2>
+    <div class="projects-container">
+        <div class="project-card">
+            <div class="project-details">
+                <h3>Project 1: ShopMate - Backend Application</h3>
+                <p> ShopMate is a powerful e-commerce backend application built using Node.js and Express. It allows users to register, log in, browse products by category, and upload product images. With features like secure user authentication, product and category management, and seamless Cloudinary image integration, ShopMate provides a smooth shopping experience for both users and admins.</p>
+                <div class="tech-stack"><h4>Tech Stack: Html, CSS, JavaScript, Node, Express, Cloudinary</h4></div>
+                <a href="https://github.com/karora63/ShopMate" target="_blank">View Project</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-details">
+                <h3>Project 2: Task Management Application</h3>
+                <p>A simple console-based task management application built in C++, designed to help users track and manage their to-dos and deadlines. It allows users to add, view, complete, and remove tasks, providing an easy and effective way to stay organized.</p>
+                <div class="tech-stack"><h4>Tech Stack: C++, .NET Framework</h4></div>
+                <a href="https://github.com/karora63/Task-Tracker-App" target="_blank">View Project</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-details">
+                <h3>Project 3: Retail Manager</h3>
+                <p>"Created Retail Manager, an all-in-one Retail Store Management System, to optimize and automate core functions such as product management, order processing, customer relationship management, and employee management. Employed SQL for in-depth data analysis, incorporating joins and sub-queries for valuable insights, and designed a scalable database with business logic and an ERD."</p>
+                <div class="tech-stack"><h4>Tech Stack: Oracle SQL Developer, DBMS</h4></div>
+                <a href="https://github.com/karora63/Retail-Manager" target="_blank">View Project</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-details">
+                <h3>Project 4: My Portfolio Website</h3>
+                <p>This website itself is no less than a project, because it has been purely designed and built by me. The main part of this website is that it showcases real-time stats from my Github account and Youtube channel. I connected my Github using fetchGitHubStats() which requested data from my gitHub and the response was used by innerHtml. Connecting Youtube was a bit complicated as I had to first generate API key in order to fetch real-time data from Youtube.</p>
+                <div class="tech-stack"><h4>Tech Stack: HTML, CSS, JS</h4></div>
+                <a href="" target="_blank">View Project</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-details">
+                <h3>Project 5: E-Commerce Website</h3>
+                <p>This E-Commerce backend, built in C, provides core functionality for managing products and shopping carts. It demonstrates handling user inputs, managing dynamic data, and ensuring data integrity. With a focus on simplicity and efficiency, this application offers a solid foundation for building a scalable e-commerce platform.</p>
+                <div class="tech-stack"><h4>Tech Stack: C</h4></div>
+                <a href="https://github.com/karora63/E-Commerce" target="_blank">View Project</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-details">
+                <h3>Project 6: Pop Paradise Web Application</h3>
+                <p>Designed and developed an engaging, front-end music app, Pop Paradise, showcasing pop music through visually dynamic product cards. Integrated interactive features and optimized user experience to seamlessly display artist details, album artwork, and song information.</p>
+                <div class="tech-stack"><h4>Tech Stack: Html, CSS, JavaScript</h4></div>
+                <a href="https://github.com/karora63/Pop-Paradise" target="_blank">View Project</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-details">
+                <h3>Project 7: Library Management System</h3>
+                <p>Created a comprehensive library management system utilizing C++ and object-oriented programming principles, prioritizing modular design and scalability. Integrated functionalities for handling publications and managing data storage through file streams, all within an intuitive, menu-based interface. Focused on enhancing performance and minimizing memory consumption by employing efficient data structures, and ensured the system’s robustness through detailed integration testing and peer code reviews.</p>
+                <div class="tech-stack"><h4>Tech Stack: C++</h4></div>
+                <a href="https://github.com/karora63/Library-Management-System" target="_blank">View Project</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-details">
+                <h3>Project 8: Tic-Tac-Toe</h3>
+                <p>Experience a fun, interactive **Tic-Tac-Toe** game built with **HTML**, **CSS**, and **JavaScript**. Play as Player X or O, track your wins, and enjoy smooth animations and a minimalist design. Accessible and mobile-friendly, it's perfect for quick gameplay on both desktop and mobile devices. Ready for a challenge? Try to outsmart your opponent and claim victory!</p>
+                <div class="tech-stack"><h4>Tech Stack: Html, CSS, JavaScript</h4></div>
+                <a href="https://github.com/karora63/Tic-Tac-Toe" target="_blank">View Project</a>
+            </div>
+        </div>
+    </div>
+</section>
+      
+<footer>
+    <div class="socials flex justify-center gap-6 mt-8">
+        <a href="" class="website footer-button">Website</a>
+        <a href="mailto:khushiofficial7305@gmail.com" class="gmail footer-button">Gmail</a>
+        <a href="https://github.com/karora63" class="github footer-button">GitHub</a>
+        <a href="https://x.com/home" class="twitter footer-button">Twitter</a>
+        <a href="https://www.instagram.com/khushi.073005/?igsh=MWV1MDk2b2lrdW13Yw%3D%3D#" class="youtube footer-button">Instagram</a>
+        <a href="https://discord.com/channels/@me" class="discord footer-button">Discord</a>
+    </div>
+</footer>
+
+  
+</body>
+</html>

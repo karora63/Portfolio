@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section */
+header {
+    background: linear-gradient(135deg, #1e3a8a, #9333ea);
+    text-align: center;
+    padding: 30px 10px;
+    border-radius: 0 0 20px 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Ensure everything is centered horizontally */
+}
+
+/* Header Image */
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    object-fit: cover;
+    margin-bottom: 20px; /* Space between the image and text */
+    display: block; /* Ensure the image is displayed as a block element */
+    margin-left: auto;
+    margin-right: auto; /* Horizontally center the image */
+}
+
+/* Header Title */
+header h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+/* Subheading */
+#subheading {
+    font-size: 1.2rem;
+    opacity: 0.8;
+    margin-top: 5px;
+}
+
+/* Responsive Header */
+@media (max-width: 768px) {
+    header {
+        padding: 20px 10px;
+    }
+    header img {
+        width: 100px;  /* Reduce the image size on mobile */
+        height: 100px;  /* Reduce the image size on mobile */
+        margin-bottom: 15px; /* Adjust the space between the image and text */
+    }
+    header h1 {
+        font-size: 1.5rem;  /* Reduce the font size on mobile */
+    }
+    #subheading {
+        font-size: 1rem;  /* Reduce subheading font size on mobile */
+    }
+}
+
+
+
+/* Skills Section */
+#skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+.skill-item-one, .skill-item-two, .skill-item-three, .skill-item-four, .skill-item-five, .skill-item-six {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.skill-item-one:hover, .skill-item-two:hover, .skill-item-three:hover, 
+.skill-item-four:hover, .skill-item-five:hover, .skill-item-six:hover {
+    transform: scale(1.05);
+}
+
+.skill-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+    filter: drop-shadow(2px 2px 5px rgba(255,255,255,0.3));
+}
+
+/* Projects Section */
+.projects-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+.project-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    width: 350px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.1);
+}
+
+.project-details h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.tech-stack {
+    font-size: 0.9rem;
+    color: #cfcfcf;
+}
+
+.project-details a {
+    display: inline-block;
+    margin-top: 10px;
+    background: #1e3a8a;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.project-details a:hover {
+    background: #9333ea;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #skills {
+        flex-direction: column;
+        align-items: center;
+    }
+    .projects-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+/* Footer Section */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #9333ea, #1e3a8a);
+    border-radius: 20px 20px 0 0;
+}
+
+/* Social Links */
+.socials {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+/* Footer Buttons */
+.footer-button {
+    background-color: #ffffff;
+    color: #1e3a8a;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 30px;
+    transition: 0.3s;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.footer-button:hover {
+    background-color: #9333ea;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+/* Social Links Styling */
+.socials a {
+    background-color: #ffffff;
+    color: #1e3a8a;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+.socials a:hover {
+    background-color: #ff1493;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    footer {
+        padding: 15px;
+    }
+    .socials {
+        flex-direction: row;
+        align-items: center;
+    }
+}
